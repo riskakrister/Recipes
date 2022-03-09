@@ -1,0 +1,124 @@
+* {
+    background-color: bisque;
+}
+
+
+img.main {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5px solid black;
+    margin-top: 40px;
+}
+
+img.index {
+    width: 800px;
+}
+
+img.recipe {
+    width: 600px;
+}
+
+div.headline {
+    font-size: 35px;
+    font-family: "Verdana", sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    letter-spacing: 2px;
+}
+
+div.line {
+    width: 700px;
+    height: 0px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #000000;
+    margin-top: 60px;
+}
+
+div.list {
+    margin-top: 60px;
+    display: inline-block;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    border: 1px solid #000000;
+    padding-right: 30px;
+    padding-left: 15px;
+}
+
+
+
+div.next {
+    text-align: center;
+    font-family: "Verdana", sans-serif;
+    font-size: 25px;
+    letter-spacing: 2px;
+    line-height: 1.8;
+}
+
+div.next.under {
+    padding-bottom: 1px;
+    border-bottom-style: solid;
+    border-bottom-width: 3px;
+    width: fit-content;
+    padding-top: 40px;
+}
+
+div.list a, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+div.list a:hover {
+    color: lawngreen;
+}
+
+div.text {
+    font-size: 20px;
+    font-family: "Verdana", sans-serif;
+    text-align: left;
+}
+
+div.text li {
+    font-size: 20px;
+    font-family: "Verdana", sans-serif;
+    text-align: left;
+}
+
+div.text.margintop {
+    margin-top: 20px;
+}
+
+div.text.marginbottom {
+    margin-bottom: 5px;
+}
+
+div.wrap {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-top: 40px;
+    width: 1200px;
+}
+
+div.home {
+    font-size: 25px;
+    color: red;
+    font-family: "Verdana", sans-serif;
+    display: inline-block;
+    margin-left: 0px;
+    position: sticky;
+    bottom: 10px;
+}
+
+
+div.home a, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+div.home a:hover {
+    color: lawngreen;
+}
